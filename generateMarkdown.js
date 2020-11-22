@@ -15,7 +15,7 @@ function generateMarkdown(data) {
 # Installation
 The following necessary dependencies must be installed to run the application properly: ${data.Installation}
 # Usage
-​This application is used for ${data.Usage}
+​This application is used ${data.Usage}
 # License
 This project is license under the ${data.License} license.
 # Contributing
