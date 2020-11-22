@@ -16,18 +16,23 @@ const questions = [
   },
   {
     type: "input",
-    message: "What's your project name?",
+    message: "What's the name of your project?",
     name: "Title",
   },
   {
     type: "input",
-    message: "Please give description of your project.",
+    message: "Please describe your project.",
     name: "Description",
   },
   {
     type: "input",
     message: "What necessary dependencies must be installed to run this app?",
     name: "Installation",
+  },
+  {
+    type: "input",
+    message: "What is this app used for?",
+    name: "Usage",
   },
   {
     type: "input",
