@@ -1,24 +1,22 @@
-// imports
 const inquirer = require("inquirer");
 const generatorMarkdown = require("./generateMarkdown")
 const fs = require("fs"); 
 
-// Questions asked to the user
+// User prompts
 const questions = [
   {
     type: "input",
-    message: "What is your GitHub username?",
+    message: "What's your GitHub username?",
     name: "UserName",
   },
   {
     type: "input",
-    message: "What is your email address?",
+    message: "What's your email address?",
     name: "Email",
   },
-
   {
     type: "input",
-    message: "What is the title for your project?",
+    message: "What's your project name?",
     name: "Title",
   },
   {
@@ -33,15 +31,9 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is this app used for?",
-    name: "Usage",
-  },
-  {
-    type: "input",
     message: "What license was used for this README?",
     name: "License",
   },
-
   {
     type: "input",
     message: "Please add contributors",
@@ -57,7 +49,7 @@ const questions = [
 // Writing to a file 
 function writeToFile(fileName, data) {
 
-fs.writeFile("README.md"+fileName, data, function(err) {
+fs.writeFile(fileName, data, function(err) {
   if (err) {
     return console.log(err);
   }
