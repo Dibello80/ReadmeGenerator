@@ -14,6 +14,7 @@
 The following necessary dependencies must be installed to run the application properly: dotenv and inquirer
 # Usage
 ​This application is used to generate a README file on repos
+![alt text](http://url/to/img.png)
 # License
 This project is license under the MIT license.
 # Contributing
