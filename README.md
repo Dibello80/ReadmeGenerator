@@ -2,7 +2,7 @@
 # ReadmeGenerator
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Dibello80/ReadmeGenerator)
 # Description
-  This program creates a professional looking README file based on prompts. 
+  This program creates a professional looking README file based on prompts.
 # Table of Contents 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -11,9 +11,9 @@
 * [Tests](#tests)
 * [Questions](#questions)
 # Installation
-The following necessary dependencies must be installed to run the application properly: envdot and inquirer
+The following necessary dependencies must be installed to run the application properly: dotenv and inquirer
 # Usage
-​This application is used to generate README file on repos.
+​This application is used to generate a README file on repos
 # License
 This project is license under the MIT license.
 # Contributing
