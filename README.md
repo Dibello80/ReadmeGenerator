@@ -14,7 +14,7 @@
 The following necessary dependencies must be installed to run the application properly: dotenv and inquirer
 # Usage
 ​This application is used to generate a README file on repos
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Dibello80/ReadmeGenerator/blob/main/readmegenshot.png)
 # License
 This project is license under the MIT license.
 # Contributing
